@@ -1,0 +1,21 @@
+.Council-card{
+    background-color: #E5E5E5;
+    width: 100%;
+    margin: 4vh 0;
+    text-align: center;
+    padding-bottom: 1vh;
+    box-shadow: 1px -1px 4px;
+    transition: 0.5s;
+    color: black;
+  }
+  .Council-card-img{
+    width: 250px;
+    
+  }
+  .Council-card:hover {
+    transform: scale(1.025);
+    transition: 0.7s;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  
+  

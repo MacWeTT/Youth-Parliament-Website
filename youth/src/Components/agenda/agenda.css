@@ -1,0 +1,46 @@
+.agenda-yp{
+    background-image: url('../agenda/agenda_images/parliamentbuilding.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 0vw;
+    display: flex;
+    justify-content: space-between;
+}
+.red{
+    background-color: #f00;
+    width: 2.5vw;
+    margin-left: 5vw;
+}
+.up{
+    height: 15vw;
+}
+.Agenda-Title{
+    text-shadow: 3px 4px 2px rgb(196, 196, 196,0.45);
+    font-size: 5.5vw;
+    margin-left: 2vw;
+}
+.Agenda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15vw;
+}
+.YP-Agenda{
+    font-size: 2.5rem;
+}
+.down{
+     height: 45vw;
+}
+
+@media screen and (max-width:600px){
+    .agenda-yp{
+        background-image: none;
+    }
+    .YP-Agenda{
+        font-size:1.5rem;
+    }
+    .down{
+        height: 50vh;
+    }
+}

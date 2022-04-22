@@ -1,0 +1,103 @@
+.YP-Trailer_Container{
+    width: 100%;
+    padding-top: 56.25%;
+    height: 0px;
+    position: relative;
+}
+.YP-Trailer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Landing-Content{
+    display: flex;
+    justify-content: space-between;
+}
+.Landing-Heading{
+    margin-left: 2rem;
+}
+.Landing-Video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.YP-Video{
+    height: 30vw;
+    width: 50vw;
+    
+}
+.JYP-Heading{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 10vh;
+    display: flex;
+    align-items: flex-start;
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.Register{
+    /* position: absolute; */
+    display: block;
+    justify-content: center;
+    background-color: #D23030;
+    padding: 0.9rem 2.7rem;
+    border: 1px solid #FFFFFF;
+    box-shadow: 6px -5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.25s ease-in-out;
+}
+.Register:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width:600px){
+    .JYP-Heading{
+        position: absolute;
+        top: 15vh;
+        left: 25vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+    }
+    .Register{
+        padding: 0.5rem 1rem;
+        margin-left: 3vw;
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    .Landing-Content{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .background-section-landing{
+        height: 100vh;
+        top: 0;
+        background-size: cover;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .background-section-landing{
+        background-position: right;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .background-section-landing{
+        background-size: cover;
+    }
+    .JYP-Heading{
+        left: 10vw;
+    }
+}

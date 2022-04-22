@@ -1,0 +1,195 @@
+.FOOTER{
+    width: 100%;
+    font-weight: 400;
+}
+.footer{
+    color: white;
+    font-family: Lato, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    border-top: .5vh solid #D23030;
+    background-color: black;
+
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+.leftcontent, .mid-content{
+    padding-top: 2vh;
+    margin-bottom: 2vh;
+}
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.mid-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 7vh;
+}
+.copyright{
+    color: white;
+    border-top: .5vh solid #D23030;
+    background-color: black;
+    height: 2rem;
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 1rem;
+}
+.contactus, .followuson, .quicklinks{
+    font-weight: bolder;
+    text-decoration: underline #D23030 .25rem;
+}
+.follow-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.qlinks{
+    display: flex;
+    flex-direction: column;
+}
+.location, .phone{
+    display: flex;
+}
+.icons-left{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-size: 2rem;
+    color: white;
+    padding: 0.5vh 2vw;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-size: 2.2rem;
+    color: white;
+}
+.logo{
+    padding-top: 1.5rem;
+    width: 20%;
+}
+
+@media screen and (max-width:800px) {
+    .FOOTER{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .5rem;
+        border-top: .3vh solid #D23030;
+        background-color: black;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3vw;
+    }
+    .leftcontent, .mid-content{
+        padding-top: 3vh;
+        margin-bottom: 2vh;
+    }
+    .leftcontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 3vh;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .line{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 7vh;
+    }
+    .copyright{
+        color: white;
+        border-top: .3vh solid #D23030;
+        background-color: black;
+        height: 1.2rem;
+        text-align: center;
+        padding-top: .3vh;
+        font-size: .5rem;
+    }
+    .contactus, .followuson, .quicklinks{
+        font-weight: bolder;
+        text-decoration: underline #D23030 .1rem;
+    }
+    .follow-content{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .qlinks{
+        display: flex;
+        flex-direction: column;
+    }
+    .location, .phone{
+        display: flex;
+        justify-content: center;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        gap: .3rem;
+    }
+    .logo{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:600px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+    }
+    .contactus{
+        display: flex;
+        justify-content: center;
+    }
+    .location{
+        display: flex;
+        justify-content: center;
+    }
+}

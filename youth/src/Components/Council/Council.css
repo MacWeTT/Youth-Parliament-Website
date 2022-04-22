@@ -1,0 +1,33 @@
+.Council-Section{
+  margin: 15vh 0vw;
+  background: linear-gradient(89.92deg, #252525 65.49%, rgba(255, 0, 0, 0.5) 98.71%);
+}
+.Council-Heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.6rem;
+    text-align: center;
+    padding-top: 1vh;
+    background: linear-gradient(90deg, #C7BCBA 0%, #FF0000 110.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.council_heading_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  margin-left: 2vw;
+}
+ .Council-Card-Container{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+ @media only screen and (max-width:900px){
+   .Council-Heading{
+     font-size: 2rem;
+   }
+  }
